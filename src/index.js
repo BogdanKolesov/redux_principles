@@ -1,6 +1,7 @@
 // // const initialState = 0; //Первоначальное состояние
 import { createStore } from 'redux'
 
+//Reducer
 
 const reducer = (state = 0, action) => {
   switch (action.type) {
