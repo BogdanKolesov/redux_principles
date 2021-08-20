@@ -1,5 +1,8 @@
-import styled, { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from 'styled-components';
 
+
+
+//glibal theme
 export const GlobalStyle = createGlobalStyle`
 *,
 *::before,
@@ -9,7 +12,9 @@ export const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
 }
 `
+//THEMES
 
+//blue theme
 export const blue = {
     colors: {
         background: 'radial-gradient(circle, rgba(9,9,121,1) 0%, rgba(2,0,36,1) 100%)',
